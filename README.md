@@ -61,7 +61,7 @@ This project is built with:
 javascript
 frontend
 
-## How can I deploy this project?
+## How can I deploy this project? easily
 
 Simply open [Lovable](https://lovable.dev/projects/78573f4b-c82b-471b-bc98-43bf358d848b) and click on Share -> Publish.
 
