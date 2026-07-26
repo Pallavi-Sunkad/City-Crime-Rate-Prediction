@@ -1,74 +1,102 @@
-# Welcome to my Project Crime rate prediaction
-## Project info 
-2026
-**URL**: https://lovable.dev/projects/78573f4b-c82b-471b-bc98-43bf358d848b
+# Crime Rate Prediction System
 
-## How can I edit this code?
+## MCA 2nd Semester Academic Project (2026)
 
-There are several ways of editing your application.
+This repository contains the source code for the **Crime Rate Prediction System**, developed as an academic project for the **Master of Computer Applications (MCA)** program.
 
+**Institution:** CMR Institute of Technology (CMRIT), Bengaluru  
+**Department:** Computer Science  
+**Academic Year:** 2025–2026  
+**Semester:** 2nd Semester
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/78573f4b-c82b-471b-bc98-43bf358d848b) and start prompting.
+---
 
-using tools
+## Project Overview
 
+The Crime Rate Prediction System uses machine learning techniques to analyze historical crime data and predict crime trends. The system helps identify crime patterns, visualize data, and support decision-making for public safety and law enforcement.
 
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Crime data analysis
+- Crime rate prediction using Machine Learning
+- Interactive dashboard
+- Data visualization with charts
+- Location-based crime insights
+- Responsive user interface
 
+---
 
+## Technologies Used
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- JavaScript
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Prerequisites
+
+- Node.js (Latest LTS version)
+- npm
+
+### Installation
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+cd <YOUR_PROJECT_FOLDER>
+npm install
 npm run dev
 ```
-5 days
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+public/
+components/
+pages/
+assets/
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+Build the project for production:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-javascript
-frontend
+```bash
+npm run build
+```
 
-## How can I deploy this project? easily
+Preview the production build:
 
-Simply open [Lovable](https://lovable.dev/projects/78573f4b-c82b-471b-bc98-43bf358d848b) and click on Share -> Publish.
+```bash
+npm run preview
+```
 
-## Can I connect a custom domain to my Lovable project?
+The generated build files can be deployed using platforms such as:
 
-Yes it is!
+- GitHub Pages
+- Netlify
+- Vercel
+- Firebase Hosting
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+
+This project was developed solely for academic purposes.
+
+© 2026 Department of Computer Science, CMR Institute of Technology (CMRIT), Bengaluru. All Rights Reserved.
